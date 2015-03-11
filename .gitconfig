@@ -1,0 +1,19 @@
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto 
+    ui = auto
+
+[status]
+    relativePaths = true
+    showUntrackedFiles = no
+
+[push]
+	default = matching
+
+[core]
+    excludesfile = ~/.gitignore_global
+    editor = vim
+    pager = less -R
+

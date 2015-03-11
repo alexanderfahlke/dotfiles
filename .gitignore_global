@@ -1,0 +1,32 @@
+# Apple specific exculdes
+.AppleDouble
+.LSOverride
+.CFUserTextEncoding
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# *nix files
+.viminfo
+.htoprc
+.lesshst
+.netrwhist
+.viminfo
+.bash_history
+
+# Compiled Python files
+*.pyc
+
+# everything else...
+*.swp
+*.swo
+
