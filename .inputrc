@@ -1,0 +1,19 @@
+# mappings for Ctrl-left-arrow and Ctrl-right-arrow for word moving
+"\eOc": forward-word
+"\eOd": backward-word
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
+"\e[5D": forward-word
+"\e[5D": backward-word
+"\e\e[C": forward-word
+"\e\e[D": backward-word
+
+# enhance bash completion
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+set show-all-if-ambiguous on
+set completion-ignore-case on
+
+# Include system wide settings which are ignored
+# by default if one has their own .inputrc
+$include /etc/inputrc
