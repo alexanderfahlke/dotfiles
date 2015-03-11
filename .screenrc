@@ -1,0 +1,5 @@
+# change the hardstatus settings to show a windowlist at the bottom of the screen
+# including the hostname, window name and the current window highlighted, date and time
+hardstatus alwayslastline
+hardstatus string '%{gk}[ %{G}%H %{g}][%= %{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?%+Lw%?%?%= %{g}][%{Y}%1%{g}]%{=b C}[ %Y-%m-%d %c ]%{W}'
+shelltitle "$|bash"
